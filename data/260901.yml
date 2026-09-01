@@ -1,0 +1,64 @@
+about:
+  description: Abseil Common Libraries (C++)
+  license: Apache-2.0
+  homepage: https://abseil.io
+  head: b7adf83
+  archived: false
+  latestVersion: 20260817.0
+  collectedAt: 2026-09-01T05:03:57Z
+timeline:
+  created: 2017-09-20
+  lastCommit: 2026-08-31
+  lastRelease: 2026-08-18
+popularity:
+  star: 18111
+  watcher: 629
+  fork: 3193
+  release: 48
+  contributor: 282
+  pullRequest: 460
+  issue: 1000
+language:
+  C++: 10218918
+  Starlark: 284378
+  CMake: 233052
+  NASL: 216846
+  C: 81810
+  Shell: 50050
+  Python: 26105
+  Batchfile: 7130
+  Linker Script: 352
+totalLine: 11118641
+recent:
+  last30d:
+    since: 2026-08-02
+    release: 1
+    mergedPR: 1
+    openPR: 6
+    closedIssue: 4
+    openIssue: 3
+    commit: 45
+  last90d:
+    since: 2026-06-03
+    release: 1
+    mergedPR: 1
+    openPR: 13
+    closedIssue: 16
+    openIssue: 7
+    commit: 155
+  last180d:
+    since: 2026-03-05
+    release: 3
+    mergedPR: 4
+    openPR: 24
+    closedIssue: 22
+    openIssue: 10
+    commit: 243
+  last360d:
+    since: 2025-09-06
+    release: 10
+    mergedPR: 12
+    openPR: 34
+    closedIssue: 42
+    openIssue: 19
+    commit: 402
