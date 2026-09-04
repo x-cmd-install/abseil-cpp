@@ -4,10 +4,10 @@ about:
     Abseil Common Libraries (C++)
   license: Apache-2.0
   homepage: https://abseil.io
-  head: 9e15d3d
+  head: 99b1678
   archived: false
   latestVersion: 20260817.0
-  collectedAt: 2026-09-04T19:32:09Z
+  collectedAt: 2026-09-04T21:00:36Z
 timeline:
   created: 2017-09-20
   lastCommit: 2026-09-04
@@ -21,7 +21,7 @@ popularity:
   pullRequest: 717
   issue: 1002
 language:
-  C++: 10232478
+  C++: 10233869
   Starlark: 284570
   CMake: 233207
   NASL: 216838
@@ -30,7 +30,7 @@ language:
   Python: 26232
   Batchfile: 7130
   Linker Script: 352
-totalBytes: 11132667
+totalBytes: 11134058
 recent:
   last30d:
     since: 2026-08-05
@@ -39,7 +39,7 @@ recent:
     openPR: 4
     closedIssue: 5
     openIssue: 4
-    commit: 58
+    commit: 59
   last60d:
     since: 2026-07-06
     release: 1
@@ -47,7 +47,7 @@ recent:
     openPR: 8
     closedIssue: 6
     openIssue: 4
-    commit: 114
+    commit: 115
   last90d:
     since: 2026-06-06
     release: 1
@@ -55,7 +55,7 @@ recent:
     openPR: 11
     closedIssue: 17
     openIssue: 8
-    commit: 168
+    commit: 169
   last180d:
     since: 2026-03-08
     release: 3
@@ -63,7 +63,7 @@ recent:
     openPR: 22
     closedIssue: 22
     openIssue: 11
-    commit: 256
+    commit: 257
   last360d:
     since: 2025-09-09
     release: 10
@@ -71,7 +71,7 @@ recent:
     openPR: 32
     closedIssue: 43
     openIssue: 20
-    commit: 415
+    commit: 416
   last720d:
     since: 2024-09-14
     release: 19
@@ -79,15 +79,78 @@ recent:
     openPR: 40
     closedIssue: 85
     openIssue: 46
-    commit: 1324
+    commit: 1325
 total:
   release: 48
   mergedPR: 252
   openPR: 45
   closedIssue: 812
   openIssue: 190
-  commit: 3695
+  commit: 3696
 ---
+path: /home/runner/.x-repo/github.com/abseil/abseil-cpp
+collectedAt: 2026-09-04T21:00:38Z
+loc:
+  Cpp:
+    code: 136250
+    comments: 22990
+    blanks: 22541
+    files: 489
+  CHeader:
+    code: 53373
+    comments: 37073
+    blanks: 12119
+    files: 385
+  CMake:
+    code: 9852
+    comments: 780
+    blanks: 635
+    files: 29
+  Bitbake:
+    code: 5383
+    comments: 318
+    blanks: 589
+    files: 24
+  Sh:
+    code: 786
+    comments: 341
+    blanks: 151
+    files: 15
+  Python:
+    code: 641
+    comments: 85
+    blanks: 118
+    files: 6
+  Batch:
+    code: 98
+    comments: 71
+    blanks: 31
+    files: 3
+  Autoconf:
+    code: 16
+    comments: 1
+    blanks: 5
+    files: 2
+  C:
+    code: 9
+    comments: 18
+    blanks: 3
+    files: 1
+  LinkerScript:
+    code: 7
+    comments: 5
+    blanks: 1
+    files: 1
+  Markdown:
+    code: 0
+    comments: 545
+    blanks: 142
+    files: 6
+total:
+  code: 206452
+  comments: 62238
+  blanks: 36344
+  files: 961
 ---
 date: "2026-08-24"
 repo:
