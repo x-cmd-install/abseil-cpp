@@ -2,12 +2,12 @@ about:
   description: "Abseil Common Libraries (C++)"
   license: Apache-2.0
   homepage: https://abseil.io
-  head: a1b9918
+  head: 592c00f
   archived: false
   latestVersion: "20260817.0"
   latestRelease: "20260817.0"
   latestPrerelease: "20260526.rc1"
-  collectedAt: 2026-09-09T06:01:44Z
+  collectedAt: 2026-09-09T20:30:00Z
 timeline:
   created: 2017-09-20
   lastCommit: 2026-09-09
@@ -15,96 +15,96 @@ timeline:
   lastRelease: 2026-08-18
   lastPrerelease: 2026-05-28
 popularity:
-  star: 18130
-  watcher: 631
-  fork: 3198
+  star: 18131
+  watcher: 630
+  fork: 3192
   release: 48
   contributor: 285
-  pullRequest: 719
-  issue: 1003
+  pullRequest: 720
+  issue: 1004
 language:
-  C++: 10245311
-  Starlark: 286517
-  CMake: 233207
+  C++: 10265526
+  Starlark: 286555
+  CMake: 233237
   NASL: 216838
   C: 81810
   Shell: 50050
   Python: 26232
   Batchfile: 7130
   Linker Script: 352
-totalBytes: 11147447
+totalBytes: 11167730
 recent:
   last30d:
     since: 2026-08-10
     release: 1
     mergedPR: 1
     openPR: 5
-    closedIssue: 5
-    openIssue: 5
-    commit: 59
+    closedIssue: 7
+    openIssue: 4
+    commit: 62
   last60d:
     since: 2026-07-11
     release: 1
     mergedPR: 1
     openPR: 8
-    closedIssue: 6
-    openIssue: 5
-    commit: 106
+    closedIssue: 8
+    openIssue: 4
+    commit: 109
   last90d:
     since: 2026-06-11
     release: 1
     mergedPR: 1
     openPR: 11
-    closedIssue: 15
-    openIssue: 8
-    commit: 171
+    closedIssue: 17
+    openIssue: 7
+    commit: 174
   last180d:
     since: 2026-03-13
     release: 3
     mergedPR: 4
     openPR: 22
-    closedIssue: 22
-    openIssue: 12
-    commit: 255
+    closedIssue: 24
+    openIssue: 11
+    commit: 258
   last360d:
     since: 2025-09-14
     release: 10
     mergedPR: 12
     openPR: 33
-    closedIssue: 43
-    openIssue: 21
-    commit: 418
+    closedIssue: 45
+    openIssue: 20
+    commit: 421
   last720d:
     since: 2024-09-19
     release: 19
     mergedPR: 21
     openPR: 41
-    closedIssue: 83
-    openIssue: 47
-    commit: 1328
+    closedIssue: 85
+    openIssue: 46
+    commit: 1332
 total:
   release: 48
   mergedPR: 252
   openPR: 46
-  closedIssue: 812
-  openIssue: 191
-  commit: 3709
+  closedIssue: 814
+  openIssue: 190
+  commit: 3713
 ---
 path: /home/runner/.x-repo/github.com/abseil/abseil-cpp
-collectedAt: 2026-09-09T06:01:50Z
+collectedAt: 2026-09-09T20:30:06Z
 loc:
   Cpp:
-    code: 136387
-    comments: 22992
-    blanks: 22555
+    code: 136674
+    comments: 23019
+    blanks: 22585
     files: 489
   CHeader:
-    code: 53513
-    comments: 37083
-    blanks: 12121
+    code: 53642
+    comments: 37109
+    blanks: 12145
     files: 385
   CMake:
-    code: 9852
+    code: 9853
     comments: 780
     blanks: 635
     files: 29
@@ -149,9 +149,9 @@ loc:
     blanks: 142
     files: 6
 total:
-  code: 206729
-  comments: 62250
-  blanks: 36360
+  code: 207146
+  comments: 62303
+  blanks: 36414
   files: 961
 ---
 date: "2026-09-07"
