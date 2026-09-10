@@ -7,7 +7,7 @@ about:
   latestVersion: "20260817.0"
   latestRelease: "20260817.0"
   latestPrerelease: "20260526.rc1"
-  collectedAt: 2026-09-10T21:50:21Z
+  collectedAt: 2026-09-10T22:05:11Z
 timeline:
   created: 2017-09-20
   lastCommit: 2026-09-10
@@ -91,7 +91,7 @@ total:
   commit: 3716
 ---
 path: /home/runner/.x-repo/github.com/abseil/abseil-cpp
-collectedAt: 2026-09-10T21:50:27Z
+collectedAt: 2026-09-10T22:05:17Z
 loc:
   Cpp:
     code: 136754
