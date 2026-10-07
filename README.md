@@ -14,13 +14,13 @@ x install abseil-cpp
 
 ## Code insight
 
-Total: **208,101** lines of code across **943** files in the top 5 languages.
+Total: **208,214** lines of code across **943** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 137,449 | 23,194 | 22,664 | 490 |
-| CHeader | 53,823 | 37,177 | 12,154 | 385 |
-| CMake | 9,875 | 780 | 636 | 29 |
+| Cpp | 137,468 | 23,194 | 22,663 | 490 |
+| CHeader | 53,915 | 37,198 | 12,160 | 385 |
+| CMake | 9,877 | 780 | 636 | 29 |
 | Bitbake | 5,397 | 315 | 589 | 24 |
 | Sh | 786 | 341 | 151 | 15 |
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 18,157 · **Forks**: 3,203 · **Open issues**: 1,010 · **Contributors**: 291
+- **Stars**: 18,157 · **Forks**: 3,202 · **Open issues**: 1,011 · **Contributors**: 291
 
 ## Totals (cumulative)
 
-- **Releases**: 48 · **Merged PRs**: 253 · **Open PRs**: 47 · **Closed issues**: 821 · **Open issues**: 189 · **Commits**: 3797
+- **Releases**: 48 · **Merged PRs**: 253 · **Open PRs**: 47 · **Closed issues**: 821 · **Open issues**: 190 · **Commits**: 3801
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 1 | 7 | 5 | 3 | 42 |
-| last60d | 2026-08-07 | 1 | 2 | 9 | 12 | 5 | 110 |
-| 90d | 2026-07-08 | 1 | 2 | 12 | 13 | 5 | 154 |
-| last180d | 2026-04-09 | 3 | 5 | 22 | 28 | 9 | 289 |
-| 360d | 2025-10-11 | 9 | 12 | 34 | 49 | 20 | 439 |
-| last720d | 2024-10-16 | 19 | 22 | 43 | 85 | 45 | 1401 |
+| 30d | 2026-09-07 | 0 | 1 | 7 | 5 | 4 | 42 |
+| last60d | 2026-08-08 | 1 | 2 | 9 | 12 | 6 | 110 |
+| 90d | 2026-07-09 | 1 | 2 | 12 | 13 | 6 | 154 |
+| last180d | 2026-04-10 | 3 | 5 | 22 | 28 | 10 | 289 |
+| 360d | 2025-10-12 | 9 | 12 | 34 | 49 | 21 | 439 |
+| last720d | 2024-10-17 | 19 | 22 | 43 | 85 | 46 | 1405 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for abseil-cpp lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T07:33:11Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T07:05:51Z._
