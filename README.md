@@ -14,13 +14,13 @@ x install abseil-cpp
 
 ## Code insight
 
-Total: **208,686** lines of code across **943** files in the top 5 languages.
+Total: **208,695** lines of code across **943** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 137,917 | 23,272 | 22,766 | 490 |
-| CHeader | 53,938 | 37,197 | 12,161 | 385 |
-| CMake | 9,877 | 780 | 636 | 29 |
+| Cpp | 137,925 | 23,272 | 22,766 | 490 |
+| CHeader | 53,938 | 37,198 | 12,161 | 385 |
+| CMake | 9,878 | 780 | 636 | 29 |
 | Bitbake | 5,397 | 315 | 589 | 24 |
 | Sh | 786 | 341 | 151 | 15 |
 
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 48 · **Merged PRs**: 253 · **Open PRs**: 49 · **Closed issues**: 821 · **Open issues**: 191 · **Commits**: 3814
+- **Releases**: 48 · **Merged PRs**: 253 · **Open PRs**: 50 · **Closed issues**: 821 · **Open issues**: 191 · **Commits**: 3816
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-09 | 0 | 1 | 9 | 3 | 5 | 47 |
-| last60d | 2026-08-10 | 1 | 2 | 11 | 12 | 7 | 115 |
-| 90d | 2026-07-11 | 1 | 2 | 14 | 13 | 7 | 159 |
-| last180d | 2026-04-12 | 3 | 5 | 24 | 28 | 11 | 294 |
-| 360d | 2025-10-14 | 9 | 12 | 36 | 49 | 21 | 444 |
-| last720d | 2024-10-19 | 19 | 22 | 45 | 85 | 47 | 1417 |
+| 30d | 2026-09-10 | 0 | 1 | 9 | 3 | 5 | 47 |
+| last60d | 2026-08-11 | 1 | 2 | 11 | 12 | 7 | 115 |
+| 90d | 2026-07-12 | 1 | 2 | 14 | 13 | 7 | 159 |
+| last180d | 2026-04-13 | 3 | 5 | 24 | 28 | 11 | 294 |
+| 360d | 2025-10-15 | 9 | 12 | 37 | 49 | 21 | 444 |
+| last720d | 2024-10-20 | 19 | 22 | 46 | 85 | 47 | 1419 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for abseil-cpp lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261009.yml` · 2026-10-09T07:16:08Z._
+_Snapshot: `data/card/261010.yml` · 2026-10-10T06:47:51Z._
