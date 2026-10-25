@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 18,167 · **Forks**: 3,185 · **Open issues**: 1,013 · **Contributors**: 292
+- **Stars**: 18,169 · **Forks**: 3,186 · **Open issues**: 1,014 · **Contributors**: 292
 
 ## Totals (cumulative)
 
-- **Releases**: 48 · **Merged PRs**: 317 · **Open PRs**: 96 · **Closed issues**: 822 · **Open issues**: 191 · **Commits**: 3911
+- **Releases**: 48 · **Merged PRs**: 317 · **Open PRs**: 116 · **Closed issues**: 822 · **Open issues**: 192 · **Commits**: 3911
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 0 | 64 | 53 | 1 | 3 | 89 |
-| last60d | 2026-08-25 | 0 | 65 | 57 | 8 | 5 | 153 |
-| 90d | 2026-07-26 | 1 | 66 | 58 | 13 | 7 | 197 |
-| last180d | 2026-04-27 | 3 | 69 | 68 | 28 | 11 | 345 |
-| 360d | 2025-10-29 | 9 | 76 | 80 | 46 | 20 | 482 |
-| last720d | 2024-11-03 | 19 | 86 | 91 | 85 | 46 | 1505 |
+| 30d | 2026-09-25 | 0 | 64 | 73 | 1 | 4 | 89 |
+| last60d | 2026-08-26 | 0 | 65 | 77 | 8 | 6 | 153 |
+| 90d | 2026-07-27 | 1 | 66 | 78 | 13 | 8 | 197 |
+| last180d | 2026-04-28 | 3 | 69 | 88 | 28 | 12 | 345 |
+| 360d | 2025-10-30 | 9 | 76 | 100 | 45 | 21 | 482 |
+| last720d | 2024-11-04 | 19 | 86 | 111 | 85 | 47 | 1505 |
 
 ## Release assets
 
@@ -73,11 +73,11 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **1070** distros on [repology.org](https://repology.org/project/abseil-cpp). **147** are ✅ on the latest upstream release, **832** are ⚠️ on an older version.
+Reported by **1070** distros on [repology.org](https://repology.org/project/abseil-cpp). **148** are ✅ on the latest upstream release, **831** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `20260526.0` | ⚠️ outdated |
+| Debian unstable | `20260107.0` | 🪦 legacy |
 | Debian 14 | `20260526.0` | ⚠️ outdated |
 | Debian 13 | `20240722.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `20260107.0` | ⚠️ outdated |
@@ -99,4 +99,4 @@ Install metadata for abseil-cpp lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261024.yml` · 2026-10-24T05:35:13Z._
+_Snapshot: `data/card/261025.yml` · 2026-10-25T05:41:56Z._
