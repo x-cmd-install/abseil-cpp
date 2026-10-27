@@ -14,24 +14,24 @@ x install abseil-cpp
 
 ## Code insight
 
-Total: **210,721** lines of code across **946** files in the top 5 languages.
+Total: **210,844** lines of code across **946** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 139,941 | 23,728 | 23,003 | 492 |
-| CHeader | 54,072 | 37,447 | 12,202 | 386 |
+| Cpp | 140,023 | 23,728 | 23,015 | 492 |
+| CHeader | 54,113 | 37,466 | 12,203 | 386 |
 | CMake | 9,740 | 777 | 630 | 29 |
 | Bitbake | 5,397 | 315 | 589 | 24 |
 | Sh | 796 | 344 | 152 | 15 |
 
 ## OpenSSF Scorecard
 
-Overall score: **7.2 / 10**
+Overall score: **6.9 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (3/10) — Found 9/30 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 18,171 · **Forks**: 3,187 · **Open issues**: 1,014 · **Contributors**: 292
+- **Stars**: 18,170 · **Forks**: 3,187 · **Open issues**: 1,014 · **Contributors**: 293
 
 ## Totals (cumulative)
 
-- **Releases**: 48 · **Merged PRs**: 318 · **Open PRs**: 115 · **Closed issues**: 822 · **Open issues**: 192 · **Commits**: 3912
+- **Releases**: 48 · **Merged PRs**: 327 · **Open PRs**: 119 · **Closed issues**: 822 · **Open issues**: 192 · **Commits**: 3921
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 65 | 72 | 1 | 4 | 67 |
-| last60d | 2026-08-27 | 0 | 66 | 76 | 8 | 6 | 130 |
-| 90d | 2026-07-28 | 1 | 67 | 77 | 13 | 8 | 186 |
-| last180d | 2026-04-29 | 3 | 70 | 87 | 28 | 12 | 336 |
-| 360d | 2025-10-31 | 9 | 77 | 99 | 45 | 21 | 471 |
-| last720d | 2024-11-05 | 19 | 87 | 109 | 85 | 47 | 1504 |
+| 30d | 2026-09-27 | 0 | 74 | 76 | 1 | 4 | 74 |
+| last60d | 2026-08-28 | 0 | 75 | 80 | 8 | 6 | 137 |
+| 90d | 2026-07-29 | 1 | 76 | 81 | 13 | 8 | 193 |
+| last180d | 2026-04-30 | 3 | 79 | 91 | 28 | 12 | 343 |
+| 360d | 2025-11-01 | 9 | 86 | 103 | 45 | 21 | 478 |
+| last720d | 2024-11-06 | 19 | 96 | 113 | 85 | 47 | 1512 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **1070** distros on [repology.org](https://repology.org/project/abseil-cpp). **148** are ✅ on the latest upstream release, **831** are ⚠️ on an older version.
+Reported by **1071** distros on [repology.org](https://repology.org/project/abseil-cpp). **149** are ✅ on the latest upstream release, **830** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -99,4 +99,4 @@ Install metadata for abseil-cpp lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:44:25Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T06:08:48Z._
