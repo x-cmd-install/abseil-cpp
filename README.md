@@ -14,12 +14,12 @@ x install abseil-cpp
 
 ## Code insight
 
-Total: **210,875** lines of code across **946** files in the top 5 languages.
+Total: **210,988** lines of code across **946** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 140,042 | 23,730 | 23,016 | 492 |
-| CHeader | 54,125 | 37,466 | 12,207 | 386 |
+| Cpp | 140,137 | 23,732 | 23,025 | 492 |
+| CHeader | 54,143 | 37,482 | 12,208 | 386 |
 | CMake | 9,740 | 777 | 630 | 29 |
 | Bitbake | 5,397 | 315 | 589 | 24 |
 | Sh | 796 | 344 | 152 | 15 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `20260817.0` (2026-08-18)
-- **Last commit**: 2026-10-27
+- **Last commit**: 2026-10-28
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 18,172 · **Forks**: 3,186 · **Open issues**: 1,014 · **Contributors**: 293
+- **Stars**: 18,173 · **Forks**: 3,186 · **Open issues**: 1,014 · **Contributors**: 293
 
 ## Totals (cumulative)
 
-- **Releases**: 48 · **Merged PRs**: 336 · **Open PRs**: 122 · **Closed issues**: 823 · **Open issues**: 191 · **Commits**: 3930
+- **Releases**: 48 · **Merged PRs**: 343 · **Open PRs**: 120 · **Closed issues**: 823 · **Open issues**: 191 · **Commits**: 3937
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 0 | 83 | 79 | 1 | 4 | 77 |
-| last60d | 2026-08-29 | 0 | 84 | 83 | 8 | 6 | 140 |
-| 90d | 2026-07-30 | 1 | 85 | 84 | 13 | 8 | 196 |
-| last180d | 2026-05-01 | 3 | 88 | 94 | 28 | 12 | 346 |
-| 360d | 2025-11-02 | 9 | 95 | 106 | 46 | 20 | 481 |
-| last720d | 2024-11-07 | 19 | 105 | 116 | 86 | 46 | 1518 |
+| 30d | 2026-09-29 | 0 | 90 | 77 | 1 | 4 | 80 |
+| last60d | 2026-08-30 | 0 | 91 | 81 | 8 | 6 | 143 |
+| 90d | 2026-07-31 | 1 | 92 | 82 | 13 | 8 | 199 |
+| last180d | 2026-05-02 | 3 | 95 | 92 | 28 | 12 | 349 |
+| 360d | 2025-11-03 | 9 | 102 | 104 | 46 | 20 | 484 |
+| last720d | 2024-11-08 | 19 | 112 | 114 | 86 | 46 | 1524 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for abseil-cpp lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261028.yml` · 2026-10-28T06:50:11Z._
+_Snapshot: `data/card/261029.yml` · 2026-10-29T06:58:50Z._
