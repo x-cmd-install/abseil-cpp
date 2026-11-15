@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `20260817.0` (2026-08-18)
-- **Last commit**: 2026-11-13
+- **Last commit**: 2026-11-14
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 18,196 · **Forks**: 3,190 · **Open issues**: 1,017 · **Contributors**: 295
+- **Stars**: 18,200 · **Forks**: 3,190 · **Open issues**: 1,017 · **Contributors**: 296
 
 ## Totals (cumulative)
 
-- **Releases**: 48 · **Merged PRs**: 438 · **Open PRs**: 133 · **Closed issues**: 824 · **Open issues**: 193 · **Commits**: 4032
+- **Releases**: 48 · **Merged PRs**: 439 · **Open PRs**: 134 · **Closed issues**: 824 · **Open issues**: 193 · **Commits**: 4033
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 0 | 173 | 79 | 1 | 4 | 130 |
-| last60d | 2026-09-15 | 0 | 185 | 91 | 6 | 8 | 181 |
-| 90d | 2026-08-16 | 1 | 187 | 95 | 14 | 10 | 246 |
-| last180d | 2026-05-18 | 3 | 189 | 103 | 27 | 14 | 401 |
-| 360d | 2025-11-19 | 9 | 197 | 116 | 47 | 20 | 541 |
-| last720d | 2024-11-24 | 19 | 207 | 127 | 87 | 48 | 1604 |
+| 30d | 2026-10-16 | 0 | 166 | 78 | 1 | 4 | 87 |
+| last60d | 2026-09-16 | 0 | 186 | 92 | 6 | 8 | 175 |
+| 90d | 2026-08-17 | 1 | 187 | 96 | 13 | 10 | 235 |
+| last180d | 2026-05-19 | 3 | 190 | 104 | 27 | 14 | 393 |
+| 360d | 2025-11-20 | 9 | 198 | 117 | 47 | 20 | 536 |
+| last720d | 2024-11-25 | 19 | 208 | 128 | 87 | 48 | 1605 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for abseil-cpp lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T08:05:18Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T07:51:17Z._
