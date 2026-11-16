@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 18,200 · **Forks**: 3,190 · **Open issues**: 1,017 · **Contributors**: 296
+- **Stars**: 18,202 · **Forks**: 3,190 · **Open issues**: 1,017 · **Contributors**: 296
 
 ## Totals (cumulative)
 
-- **Releases**: 48 · **Merged PRs**: 439 · **Open PRs**: 134 · **Closed issues**: 824 · **Open issues**: 193 · **Commits**: 4033
+- **Releases**: 48 · **Merged PRs**: 439 · **Open PRs**: 150 · **Closed issues**: 824 · **Open issues**: 193 · **Commits**: 4033
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 166 | 78 | 1 | 4 | 87 |
-| last60d | 2026-09-16 | 0 | 186 | 92 | 6 | 8 | 175 |
-| 90d | 2026-08-17 | 1 | 187 | 96 | 13 | 10 | 235 |
-| last180d | 2026-05-19 | 3 | 190 | 104 | 27 | 14 | 393 |
-| 360d | 2025-11-20 | 9 | 198 | 117 | 47 | 20 | 536 |
-| last720d | 2024-11-25 | 19 | 208 | 128 | 87 | 48 | 1605 |
+| 30d | 2026-10-17 | 0 | 159 | 92 | 1 | 2 | 87 |
+| last60d | 2026-09-17 | 0 | 186 | 108 | 4 | 8 | 175 |
+| 90d | 2026-08-18 | 1 | 187 | 112 | 13 | 10 | 235 |
+| last180d | 2026-05-20 | 3 | 190 | 120 | 27 | 14 | 393 |
+| 360d | 2025-11-21 | 9 | 198 | 133 | 47 | 20 | 536 |
+| last720d | 2024-11-26 | 19 | 208 | 144 | 87 | 48 | 1605 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for abseil-cpp lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T07:51:17Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T08:32:37Z._
