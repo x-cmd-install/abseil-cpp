@@ -14,15 +14,25 @@ x install abseil-cpp
 
 ## Code insight
 
-Total: **213,256** lines of code across **948** files in the top 5 languages.
+Total: **213,841** lines of code across **948** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 141,408 | 23,888 | 23,199 | 493 |
-| CHeader | 55,075 | 37,739 | 12,323 | 387 |
-| CMake | 9,780 | 778 | 632 | 29 |
+| Cpp | 141,969 | 23,924 | 23,274 | 493 |
+| CHeader | 55,097 | 37,749 | 12,328 | 387 |
+| CMake | 9,782 | 778 | 632 | 29 |
 | Bitbake | 5,414 | 314 | 579 | 24 |
 | Sh | 796 | 344 | 152 | 15 |
+
+## OpenSSF Scorecard
+
+Overall score: **6.8 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -33,27 +43,27 @@ Total: **213,256** lines of code across **948** files in the top 5 languages.
 ## Release
 
 - **Latest**: `20260817.0` (2026-08-18)
-- **Last commit**: 2026-11-17
+- **Last commit**: 2026-11-18
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 18,203 · **Forks**: 3,192 · **Open issues**: 1,017 · **Contributors**: 297
+- **Stars**: 18,211 · **Forks**: 3,192 · **Open issues**: 1,018 · **Contributors**: 298
 
 ## Totals (cumulative)
 
-- **Releases**: 48 · **Merged PRs**: 449 · **Open PRs**: 156 · **Closed issues**: 824 · **Open issues**: 193 · **Commits**: 4043
+- **Releases**: 48 · **Merged PRs**: 461 · **Open PRs**: 170 · **Closed issues**: 825 · **Open issues**: 193 · **Commits**: 4055
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 166 | 95 | 1 | 2 | 94 |
-| last60d | 2026-09-18 | 0 | 196 | 114 | 4 | 8 | 182 |
-| 90d | 2026-08-19 | 0 | 197 | 117 | 13 | 10 | 242 |
-| last180d | 2026-05-21 | 3 | 200 | 126 | 27 | 14 | 400 |
-| 360d | 2025-11-22 | 9 | 208 | 139 | 47 | 20 | 543 |
-| last720d | 2024-11-27 | 19 | 218 | 150 | 87 | 48 | 1613 |
+| 30d | 2026-10-20 | 0 | 160 | 101 | 1 | 3 | 102 |
+| last60d | 2026-09-20 | 0 | 208 | 128 | 4 | 8 | 190 |
+| 90d | 2026-08-21 | 0 | 209 | 131 | 13 | 11 | 250 |
+| last180d | 2026-05-23 | 3 | 212 | 140 | 27 | 15 | 408 |
+| 360d | 2025-11-24 | 9 | 220 | 152 | 47 | 21 | 551 |
+| last720d | 2024-11-29 | 19 | 230 | 164 | 88 | 48 | 1625 |
 
 ## Release assets
 
@@ -63,7 +73,7 @@ Total: **213,256** lines of code across **948** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **1073** distros on [repology.org](https://repology.org/project/abseil-cpp). **156** are ✅ on the latest upstream release, **825** are ⚠️ on an older version.
+Reported by **1072** distros on [repology.org](https://repology.org/project/abseil-cpp). **156** are ✅ on the latest upstream release, **824** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -89,4 +99,4 @@ Install metadata for abseil-cpp lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T09:51:17Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T10:27:54Z._
