@@ -136,15 +136,15 @@
   licenses:
     - Apache-2.0
 - repo: aur
-  srcname: abseil-cpp-git
-  binname: abseil-cpp-git
-  visiblename: abseil-cpp-git
-  version: r1653.7152f9bc
-  origversion: r1653.7152f9bc-3
-  status: rolling
-  summary: Collection of C++ library code designed to augment the C++ standard library
+  srcname: mingw-w64-abseil-cpp
+  binname: mingw-w64-abseil-cpp
+  visiblename: mingw-w64-abseil-cpp
+  version: "20260817.0"
+  origversion: 20260817.0-2
+  status: newest
+  summary: Collection of C++ library code designed to augment the C++ standard library (mingw-w64)
   maintainers:
-    - fabiololix@aur
+    - xantares@aur
   licenses:
     - Apache
 - repo: alpine_3_18
@@ -420,18 +420,12 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: aur
-  srcname: abseil-cpp11
-  binname: abseil-cpp11
-  visiblename: abseil-cpp11
-  version: "20220623.1"
-  origversion: 20220623.1-2
-  status: outdated
-  summary: Common C++ libraries (legacy for C++11)
-  maintainers:
-    - osamc@aur
-  licenses:
-    - Apache
+- repo: conancenter
+  srcname: abseil
+  visiblename: abseil
+  version: "20260107.1"
+  origversion: null
+  status: legacy
 - repo: alpine_3_18
   subrepo: community
   srcname: abseil-cpp
@@ -562,17 +556,12 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: nix_stable_25_11
-  srcname: abseil-cpp
-  visiblename: abseil-cpp
-  version: "20250814.1"
+- repo: conancenter
+  srcname: abseil
+  visiblename: abseil
+  version: "20250814.2"
   origversion: null
-  status: outdated
-  summary: Open-source collection of C++ code designed to augment the C++ standard library
-  maintainers:
-    - gaetan@glepage.com
-  licenses:
-    - Apache-2.0
+  status: legacy
 - repo: alpine_3_18
   subrepo: community
   srcname: abseil-cpp
@@ -846,6 +835,12 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
+- repo: conancenter
+  srcname: abseil
+  visiblename: abseil
+  version: "20250512.1"
+  origversion: null
+  status: legacy
 - repo: alpine_3_18
   subrepo: community
   srcname: abseil-cpp
@@ -966,6 +961,19 @@
 - repo: alpine_3_18
   subrepo: community
   srcname: abseil-cpp
+  binname: abseil-cpp-status
+  visiblename: abseil-cpp-status
+  version: "20230125.3"
+  origversion: 20230125.3-r1
+  status: outdated
+  summary: 'Abseil Common C++ library: abseil-cpp-status'
+  maintainers:
+    - dunk@denkimushi.com
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: abseil-cpp
   binname: abseil-cpp-random-internal-platform
   visiblename: abseil-cpp-random-internal-platform
   version: "20230125.3"
@@ -976,17 +984,12 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: nix_stable_25_11
-  srcname: abseil-cpp_202103
-  visiblename: abseil-cpp
-  version: "20210324.2"
+- repo: conancenter
+  srcname: abseil
+  visiblename: abseil
+  version: "20250127.0"
   origversion: null
   status: legacy
-  summary: Open-source collection of C++ code designed to augment the C++ standard library
-  maintainers:
-    - andersk@mit.edu
-  licenses:
-    - Apache-2.0
 - repo: alpine_3_18
   subrepo: community
   srcname: abseil-cpp
@@ -1198,19 +1201,6 @@
 - repo: alpine_3_18
   subrepo: community
   srcname: abseil-cpp
-  binname: abseil-cpp-status
-  visiblename: abseil-cpp-status
-  version: "20230125.3"
-  origversion: 20230125.3-r1
-  status: outdated
-  summary: 'Abseil Common C++ library: abseil-cpp-status'
-  maintainers:
-    - dunk@denkimushi.com
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: community
-  srcname: abseil-cpp
   binname: abseil-cpp-statusor
   visiblename: abseil-cpp-statusor
   version: "20230125.3"
@@ -1390,17 +1380,12 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: nix_stable_25_05
-  srcname: abseil-cpp_202407
-  visiblename: abseil-cpp
+- repo: conancenter
+  srcname: abseil
+  visiblename: abseil
   version: "20240722.1"
   origversion: null
   status: legacy
-  summary: Open-source collection of C++ code designed to augment the C++ standard library
-  maintainers:
-    - gaetan@glepage.com
-  licenses:
-    - Apache-2.0
 - repo: alpine_3_19
   subrepo: main
   srcname: abseil-cpp
@@ -1650,7 +1635,7 @@
 - repo: conancenter
   srcname: abseil
   visiblename: abseil
-  version: "20260107.1"
+  version: "20240722.0"
   origversion: null
   status: legacy
 - repo: alpine_3_19
@@ -1770,12 +1755,17 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: conancenter
-  srcname: abseil
-  visiblename: abseil
-  version: "20250814.2"
-  origversion: null
-  status: legacy
+- repo: openeuler_20_03_lts_sp3
+  srcname: abseil-cpp
+  visiblename: abseil-cpp
+  version: "20210324.2"
+  origversion: 20210324.2-1.oe1
+  status: outdated
+  summary: C++ Common Libraries
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
 - repo: alpine_3_19
   subrepo: main
   srcname: abseil-cpp
@@ -1893,12 +1883,20 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: conancenter
+- repo: openkylin_2_0
+  subrepo: nile-proposed/main
   srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20220623
   visiblename: abseil
-  version: "20250512.1"
-  origversion: null
-  status: legacy
+  version: "20220623.1"
+  origversion: 20220623.1-ok3
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - libs
 - repo: alpine_3_19
   subrepo: main
   srcname: abseil-cpp
@@ -1912,6 +1910,20 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
+- repo: openkylin_3_0
+  subrepo: huanghe/main
+  srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20260107
+  visiblename: abseil
+  version: "20260107.0"
+  origversion: 20260107.0-ok1
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - libs
 - repo: alpine_3_19
   subrepo: main
   srcname: abseil-cpp
@@ -2016,12 +2028,20 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: conancenter
+- repo: debian_14
+  subrepo: forky/main
   srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20260526
   visiblename: abseil
-  version: "20250127.0"
-  origversion: null
-  status: legacy
+  version: "20260526.0"
+  origversion: 20260526.0-2
+  status: outdated
+  maintainers:
+    - doko@debian.org
+  categories:
+    - misc
 - repo: alpine_3_19
   subrepo: main
   srcname: abseil-cpp
@@ -2139,20 +2159,6 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: openkylin_1_0
-  subrepo: yangtze-proposed/main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20220623
-  visiblename: abseil
-  version: "20220623.1"
-  origversion: 20220623.1-ok2
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - libs
 - repo: alpine_3_19
   subrepo: main
   srcname: abseil-cpp
@@ -2270,15 +2276,15 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: openkylin_2_0
-  subrepo: nile/main
+- repo: openkylin_3_0
+  subrepo: huanghe-proposed/main
   srcname: abseil
   binnames:
     - libabsl-dev
-    - libabsl20220623
+    - libabsl20260107
   visiblename: abseil
-  version: "20220623.1"
-  origversion: 20220623.1-ok3
+  version: "20260107.0"
+  origversion: 20260107.0-ok1
   status: outdated
   maintainers:
     - packaging@lists.openkylin.top
@@ -2893,12 +2899,20 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: conancenter
+- repo: debian_unstable
+  subrepo: sid/main
   srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20260107
   visiblename: abseil
-  version: "20240722.1"
-  origversion: null
+  version: "20260107.0"
+  origversion: 20260107.0-5
   status: legacy
+  maintainers:
+    - doko@debian.org
+  categories:
+    - misc
 - repo: alpine_3_20
   subrepo: main
   srcname: abseil-cpp
@@ -3016,12 +3030,20 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: conancenter
+- repo: debian_unstable
+  subrepo: sid/main
   srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20260526
   visiblename: abseil
-  version: "20240722.0"
-  origversion: null
-  status: legacy
+  version: "20260526.0"
+  origversion: 20260526.0-2
+  status: outdated
+  maintainers:
+    - doko@debian.org
+  categories:
+    - misc
 - repo: alpine_3_20
   subrepo: main
   srcname: abseil-cpp
@@ -3139,20 +3161,17 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: debian_14
-  subrepo: forky/main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20260526
-  visiblename: abseil
-  version: "20260526.0"
-  origversion: 20260526.0-2
-  status: outdated
+- repo: nix_stable_25_05
+  srcname: abseil-cpp_202401
+  visiblename: abseil-cpp
+  version: "20240116.3"
+  origversion: null
+  status: legacy
+  summary: Open-source collection of C++ code designed to augment the C++ standard library
   maintainers:
-    - doko@debian.org
-  categories:
-    - misc
+    - gaetan@glepage.com
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_20
   subrepo: main
   srcname: abseil-cpp
@@ -3270,34 +3289,18 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: openkylin_2_0
-  subrepo: nile-proposed/main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20220623
-  visiblename: abseil
-  version: "20220623.1"
-  origversion: 20220623.1-ok3
-  status: outdated
+- repo: pkgsrc_current
+  srcname: devel/abseil
+  binname: abseil
+  visiblename: devel/abseil
+  version: "20260817.0"
+  origversion: null
+  status: newest
+  summary: C++ Common Libraries
   maintainers:
-    - packaging@lists.openkylin.top
+    - pkgsrc-users@netbsd.org
   categories:
-    - libs
-- repo: parrot
-  subrepo: parrot/main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20240722
-  visiblename: abseil
-  version: "20240722.0"
-  origversion: 20240722.0-4
-  status: outdated
-  maintainers:
-    - bbaren@debian.org
-  categories:
-    - misc
+    - devel
 - repo: alpine_3_20
   subrepo: main
   srcname: abseil-cpp
@@ -3324,6 +3327,16 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
+- repo: crux_37
+  subrepo: opt
+  srcname: abseil-cpp
+  visiblename: abseil-cpp
+  version: "20240722.1"
+  origversion: null
+  status: outdated
+  summary: Abseil Common Libraries (C++)
+  maintainers:
+    - tbier@posteo.de
 - repo: alpine_3_20
   subrepo: main
   srcname: abseil-cpp
@@ -3415,20 +3428,17 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20260107
-  visiblename: abseil
-  version: "20260107.0"
-  origversion: 20260107.0-5
+- repo: nix_stable_25_05
+  srcname: abseil-cpp_202407
+  visiblename: abseil-cpp
+  version: "20240722.1"
+  origversion: null
   status: legacy
+  summary: Open-source collection of C++ code designed to augment the C++ standard library
   maintainers:
-    - doko@debian.org
-  categories:
-    - misc
+    - gaetan@glepage.com
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_20
   subrepo: main
   srcname: abseil-cpp
@@ -3546,20 +3556,12 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: openkylin_3_0
-  subrepo: huanghe/main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20260107
-  visiblename: abseil
-  version: "20260107.0"
-  origversion: 20260107.0-ok1
+- repo: pld
+  srcname: abseil-cpp
+  visiblename: abseil-cpp
+  version: "20250814.2"
+  origversion: 20250814.2-1
   status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - libs
 - repo: alpine_3_20
   subrepo: main
   srcname: abseil-cpp
@@ -3677,20 +3679,14 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: openkylin_3_0
-  subrepo: huanghe-proposed/main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20260107
-  visiblename: abseil
-  version: "20260107.0"
-  origversion: 20260107.0-ok1
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - libs
+- repo: ptxdist
+  srcname: abseil-cpp
+  visiblename: abseil-cpp
+  version: "20260817.0"
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_20
   subrepo: main
   srcname: abseil-cpp
@@ -4042,16 +4038,16 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: debian_unstable
-  subrepo: sid/main
+- repo: debian_experimental
+  subrepo: experimental/main
   srcname: abseil
   binnames:
     - libabsl-dev
-    - libabsl20260526
+    - libabsl20260817
   visiblename: abseil
-  version: "20260526.0"
-  origversion: 20260526.0-2
-  status: outdated
+  version: "20260817.0"
+  origversion: 20260817.0-1~exp2
+  status: newest
   maintainers:
     - doko@debian.org
   categories:
@@ -4173,20 +4169,20 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: debian_experimental
-  subrepo: experimental/main
+- repo: deepin_23
+  subrepo: main
   srcname: abseil
   binnames:
     - libabsl-dev
-    - libabsl20260817
+    - libabsl20220623
   visiblename: abseil
-  version: "20260817.0"
-  origversion: 20260817.0-1~exp2
-  status: newest
+  version: "20220623.1"
+  origversion: 20220623.1-3
+  status: outdated
   maintainers:
-    - doko@debian.org
+    - bbaren@debian.org
   categories:
-    - misc
+    - libs
 - repo: alpine_3_21
   subrepo: main
   srcname: abseil-cpp
@@ -4434,7 +4430,7 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: deepin_23
+- repo: deepin_25
   subrepo: main
   srcname: abseil
   binnames:
@@ -4442,12 +4438,26 @@
     - libabsl20220623
   visiblename: abseil
   version: "20220623.1"
-  origversion: 20220623.1-3
+  origversion: 20220623.1-3deepin1
   status: outdated
   maintainers:
     - bbaren@debian.org
   categories:
     - libs
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20200923
+  visiblename: abseil
+  version: 0~20200923.3
+  origversion: 0~20200923.3-2
+  status: outdated
+  maintainers:
+    - bbaren@debian.org
+  categories:
+    - misc
 - repo: alpine_3_21
   subrepo: main
   srcname: abseil-cpp
@@ -4461,20 +4471,6 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20240722
-  visiblename: abseil
-  version: "20240722.0"
-  origversion: 20240722.0-4
-  status: outdated
-  maintainers:
-    - bbaren@debian.org
-  categories:
-    - misc
 - repo: alpine_3_21
   subrepo: main
   srcname: abseil-cpp
@@ -4579,20 +4575,20 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: deepin_25
-  subrepo: main
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: abseil
   binnames:
     - libabsl-dev
-    - libabsl20220623
+    - libabsl20260526
   visiblename: abseil
-  version: "20220623.1"
-  origversion: 20220623.1-3deepin1
+  version: "20260526.0"
+  origversion: 20260526.0-2
   status: outdated
   maintainers:
-    - bbaren@debian.org
+    - doko@debian.org
   categories:
-    - libs
+    - misc
 - repo: alpine_3_21
   subrepo: main
   srcname: abseil-cpp
@@ -4710,8 +4706,8 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: pureos_byzantium
+  subrepo: byzantium/main
   srcname: abseil
   binnames:
     - libabsl-dev
@@ -4723,7 +4719,7 @@
   maintainers:
     - bbaren@debian.org
   categories:
-    - misc
+    - libdevel
 - repo: alpine_3_21
   subrepo: main
   srcname: abseil-cpp
@@ -4841,20 +4837,17 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20260526
-  visiblename: abseil
-  version: "20260526.0"
-  origversion: 20260526.0-2
+- repo: nix_stable_25_11
+  srcname: abseil-cpp
+  visiblename: abseil-cpp
+  version: "20250814.1"
+  origversion: null
   status: outdated
+  summary: Open-source collection of C++ code designed to augment the C++ standard library
   maintainers:
-    - doko@debian.org
-  categories:
-    - misc
+    - gaetan@glepage.com
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_21
   subrepo: main
   srcname: abseil-cpp
@@ -4972,6 +4965,17 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
+- repo: nix_stable_25_11
+  srcname: abseil-cpp_202103
+  visiblename: abseil-cpp
+  version: "20210324.2"
+  origversion: null
+  status: legacy
+  summary: Open-source collection of C++ code designed to augment the C++ standard library
+  maintainers:
+    - andersk@mit.edu
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_21
   subrepo: main
   srcname: abseil-cpp
@@ -4998,6 +5002,16 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
+- repo: crux_38
+  subrepo: opt
+  srcname: abseil-cpp
+  visiblename: abseil-cpp
+  version: "20260817.0"
+  origversion: null
+  status: newest
+  summary: Abseil Common Libraries (C++)
+  maintainers:
+    - tbier@posteo.de
 - repo: alpine_3_21
   subrepo: main
   srcname: abseil-cpp
@@ -5089,6 +5103,20 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20240722
+  visiblename: abseil
+  version: "20240722.0"
+  origversion: 20240722.0-4
+  status: outdated
+  maintainers:
+    - bbaren@debian.org
+  categories:
+    - libdevel
 - repo: alpine_3_21
   subrepo: main
   srcname: abseil-cpp
@@ -5206,6 +5234,20 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20220623
+  visiblename: abseil
+  version: "20220623.1"
+  origversion: 20220623.1-1+rpi1+deb12u2
+  status: outdated
+  maintainers:
+    - bbaren@debian.org
+  categories:
+    - libs
 - repo: alpine_3_21
   subrepo: main
   srcname: abseil-cpp
@@ -5323,6 +5365,20 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
+- repo: raspbian_stable
+  subrepo: main
+  srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20240722
+  visiblename: abseil
+  version: "20240722.0"
+  origversion: 20240722.0-4
+  status: outdated
+  maintainers:
+    - bbaren@debian.org
+  categories:
+    - misc
 - repo: alpine_3_21
   subrepo: main
   srcname: abseil-cpp
@@ -5375,15 +5431,6 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: pclinuxos
-  srcname: abseil-cpp
-  visiblename: abseil-cpp
-  version: "20250814.1"
-  origversion: 20250814.1-1pclos2026
-  status: outdated
-  summary: C++ library code designed to augment
-  categories:
-    - System/Libraries
 - repo: alpine_3_21
   subrepo: main
   srcname: abseil-cpp
@@ -5908,6 +5955,17 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: abseil-cpp
+  binname: abseil-cpp
+  visiblename: abseil-cpp
+  version: "20260817.0"
+  origversion: 20260817.0-2
+  status: newest
+  summary: Collection of C++ library code designed to augment the C++ standard library
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_22
   subrepo: main
   srcname: abseil-cpp
@@ -5961,15 +6019,15 @@
   licenses:
     - Apache-2.0
 - repo: aur
-  srcname: mingw-w64-abseil-cpp
-  binname: mingw-w64-abseil-cpp
-  visiblename: mingw-w64-abseil-cpp
-  version: "20260817.0"
-  origversion: 20260817.0-2
-  status: newest
-  summary: Collection of C++ library code designed to augment the C++ standard library (mingw-w64)
+  srcname: abseil-cpp-git
+  binname: abseil-cpp-git
+  visiblename: abseil-cpp-git
+  version: r1653.7152f9bc
+  origversion: r1653.7152f9bc-3
+  status: rolling
+  summary: Collection of C++ library code designed to augment the C++ standard library
   maintainers:
-    - xantares@aur
+    - fabiololix@aur
   licenses:
     - Apache
 - repo: alpine_3_22
@@ -6089,6 +6147,20 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
+- repo: raspbian_testing
+  subrepo: main
+  srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20260526
+  visiblename: abseil
+  version: "20260526.0"
+  origversion: 20260526.0-2
+  status: outdated
+  maintainers:
+    - doko@debian.org
+  categories:
+    - misc
 - repo: alpine_3_22
   subrepo: main
   srcname: abseil-cpp
@@ -6206,14 +6278,18 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: gnuguix
-  srcname: abseil-cpp
-  binname: abseil-cpp
-  visiblename: abseil-cpp
-  version: "20250127.1"
-  origversion: null
-  status: legacy
-  summary: Augmented C++ standard library
+- repo: aur
+  srcname: abseil-cpp11
+  binname: abseil-cpp11
+  visiblename: abseil-cpp11
+  version: "20220623.1"
+  origversion: 20220623.1-2
+  status: outdated
+  summary: Common C++ libraries (legacy for C++11)
+  maintainers:
+    - osamc@aur
+  licenses:
+    - Apache
 - repo: alpine_3_22
   subrepo: main
   srcname: abseil-cpp
@@ -6318,19 +6394,6 @@
     - dunk@denkimushi.com
   licenses:
     - Apache-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: abseil-cpp
-  binname: abseil-cpp-poison
-  visiblename: abseil-cpp-poison
-  version: "20250814.1"
-  origversion: 20250814.1-r0
-  status: outdated
-  summary: 'Abseil Common C++ library: abseil-cpp-poison'
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - Apache-2.0
 - repo: alpine_3_22
   subrepo: main
   srcname: abseil-cpp
@@ -6348,9 +6411,9 @@
   srcname: abseil-cpp
   binname: abseil-cpp
   visiblename: abseil-cpp
-  version: "20250814.1"
+  version: "20250127.1"
   origversion: null
-  status: outdated
+  status: legacy
   summary: Augmented C++ standard library
 - repo: alpine_3_22
   subrepo: main
@@ -6813,6 +6876,15 @@
   summary: 'Abseil Common C++ library: abseil-cpp-status'
   maintainers:
     - dunk@denkimushi.com
+  licenses:
+    - Apache-2.0
+- repo: xrepo
+  srcname: abseil
+  visiblename: abseil
+  version: "20240116.2"
+  origversion: null
+  status: legacy
+  summary: C++ Common Libraries
   licenses:
     - Apache-2.0
 - repo: alpine_3_22
@@ -7290,6 +7362,18 @@
     - badfunkstripe@gmail.com
   licenses:
     - Apache-2.0
+- repo: apertis_v2024
+  subrepo: v2024/target
+  srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20220623
+  visiblename: abseil
+  version: "20220623.1"
+  origversion: 20220623.1-1+deb12u2+apertis1
+  status: outdated
+  maintainers:
+    - bbaren@debian.org
 - repo: alpine_3_23
   subrepo: main
   srcname: abseil-cpp
@@ -7467,31 +7551,6 @@
     - badfunkstripe@gmail.com
   licenses:
     - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: abseil-cpp
-  binname: abseil-cpp
-  visiblename: abseil-cpp
-  version: "20260817.0"
-  origversion: 20260817.0-2
-  status: newest
-  summary: Collection of C++ library code designed to augment the C++ standard library
-  licenses:
-    - Apache-2.0
-- repo: solus
-  srcname: abseil-cpp
-  binname: abseil-cpp
-  visiblename: abseil-cpp
-  version: "20260107.1"
-  origversion: null
-  status: outdated
-  summary: Abseil Common Libraries
-  maintainers:
-    - maddock.evan@vivaldi.net
-  licenses:
-    - Apache-2.0
-  categories:
-    - programming.library
 - repo: alpine_3_23
   subrepo: main
   srcname: abseil-cpp
@@ -7609,17 +7668,14 @@
     - badfunkstripe@gmail.com
   licenses:
     - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
+- repo: gnuguix
   srcname: abseil-cpp
   binname: abseil-cpp
   visiblename: abseil-cpp
-  version: "20260817.0"
-  origversion: 20260817.0-2
-  status: newest
-  summary: Collection of C++ library code designed to augment the C++ standard library
-  licenses:
-    - Apache-2.0
+  version: "20250814.1"
+  origversion: null
+  status: outdated
+  summary: Augmented C++ standard library
 - repo: alpine_3_23
   subrepo: main
   srcname: abseil-cpp
@@ -7737,7 +7793,7 @@
     - badfunkstripe@gmail.com
   licenses:
     - Apache-2.0
-- repo: manjaro_unstable
+- repo: manjaro_stable
   subrepo: extra
   srcname: abseil-cpp
   binname: abseil-cpp
@@ -7761,6 +7817,12 @@
     - badfunkstripe@gmail.com
   licenses:
     - Apache-2.0
+- repo: conancenter
+  srcname: abseil
+  visiblename: abseil
+  version: "20240116.2"
+  origversion: null
+  status: legacy
 - repo: alpine_3_23
   subrepo: main
   srcname: abseil-cpp
@@ -7946,6 +8008,19 @@
 - repo: alpine_3_23
   subrepo: main
   srcname: abseil-cpp
+  binname: abseil-cpp-poison
+  visiblename: abseil-cpp-poison
+  version: "20250814.1"
+  origversion: 20250814.1-r0
+  status: outdated
+  summary: 'Abseil Common C++ library: abseil-cpp-poison'
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: abseil-cpp
   binname: abseil-cpp-pow10-helper
   visiblename: abseil-cpp-pow10-helper
   version: "20250814.1"
@@ -7967,17 +8042,6 @@
   summary: 'Abseil Common C++ library: abseil-cpp-profile-builder'
   maintainers:
     - badfunkstripe@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_05
-  srcname: abseil-cpp_202103
-  visiblename: abseil-cpp
-  version: "20210324.2"
-  origversion: null
-  status: legacy
-  summary: Open-source collection of C++ code designed to augment the C++ standard library
-  maintainers:
-    - andersk@mit.edu
   licenses:
     - Apache-2.0
 - repo: alpine_3_23
@@ -8212,6 +8276,17 @@
   summary: 'Abseil Common C++ library: abseil-cpp-stack-consumption'
   maintainers:
     - badfunkstripe@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: abseil-cpp
+  binname: abseil-cpp
+  visiblename: abseil-cpp
+  version: "20260817.0"
+  origversion: 20260817.0-2
+  status: newest
+  summary: Collection of C++ library code designed to augment the C++ standard library
   licenses:
     - Apache-2.0
 - repo: alpine_3_23
@@ -8908,6 +8983,12 @@
     - badfunkstripe@gmail.com
   licenses:
     - Apache-2.0
+- repo: conancenter
+  srcname: abseil
+  visiblename: abseil
+  version: "20240116.1"
+  origversion: null
+  status: legacy
 - repo: alpine_3_24
   subrepo: main
   srcname: abseil-cpp
@@ -9134,6 +9215,12 @@
     - badfunkstripe@gmail.com
   licenses:
     - Apache-2.0
+- repo: conancenter
+  srcname: abseil
+  visiblename: abseil
+  version: "20230802.1"
+  origversion: null
+  status: legacy
 - repo: alpine_3_24
   subrepo: main
   srcname: abseil-cpp
@@ -9312,19 +9399,6 @@
   origversion: 20250814.1-r0
   status: outdated
   summary: 'Abseil Common C++ library: abseil-cpp-log-internal-test-matchers'
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: main
-  srcname: abseil-cpp
-  binname: abseil-cpp-strings
-  visiblename: abseil-cpp-strings
-  version: "20250814.1"
-  origversion: 20250814.1-r0
-  status: outdated
-  summary: 'Abseil Common C++ library: abseil-cpp-strings'
   maintainers:
     - badfunkstripe@gmail.com
   licenses:
@@ -9563,6 +9637,18 @@
     - badfunkstripe@gmail.com
   licenses:
     - Apache-2.0
+- repo: aosc
+  srcname: runtime-common/abseil-cpp
+  binname: abseil-cpp
+  visiblename: abseil-cpp
+  version: "20260526.0"
+  origversion: 20260526.0-1
+  status: outdated
+  summary: Collection of C++11-compliant libraries designed to augment the C++ standard library
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - libs
 - repo: alpine_3_24
   subrepo: main
   srcname: abseil-cpp
@@ -9707,9 +9793,9 @@
   licenses:
     - Apache-2.0
 - repo: nix_stable_25_05
-  srcname: abseil-cpp_202301
+  srcname: abseil-cpp_202103
   visiblename: abseil-cpp
-  version: "20230125.4"
+  version: "20210324.2"
   origversion: null
   status: legacy
   summary: Open-source collection of C++ code designed to augment the C++ standard library
@@ -9765,6 +9851,19 @@
   origversion: 20250814.1-r0
   status: outdated
   summary: 'Abseil Common C++ library: abseil-cpp-string-view'
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: main
+  srcname: abseil-cpp
+  binname: abseil-cpp-strings
+  visiblename: abseil-cpp-strings
+  version: "20250814.1"
+  origversion: 20250814.1-r0
+  status: outdated
+  summary: 'Abseil Common C++ library: abseil-cpp-strings'
   maintainers:
     - badfunkstripe@gmail.com
   licenses:
@@ -10919,6 +11018,12 @@
     - badfunkstripe@gmail.com
   licenses:
     - Apache-2.0
+- repo: conancenter
+  srcname: abseil
+  visiblename: abseil
+  version: "20230125.3"
+  origversion: null
+  status: legacy
 - repo: alpine_edge
   subrepo: main
   srcname: abseil-cpp
@@ -11138,6 +11243,18 @@
     - badfunkstripe@gmail.com
   licenses:
     - Apache-2.0
+- repo: apertis_v2023
+  subrepo: v2023/development
+  srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20200923
+  visiblename: abseil
+  version: 0~20200923.3
+  origversion: 0~20200923.3-2apertis0
+  status: outdated
+  maintainers:
+    - bbaren@debian.org
 - repo: alpine_edge
   subrepo: main
   srcname: abseil-cpp
@@ -11374,100 +11491,6 @@
     - Apache-2.0
   categories:
     - System/Legacy libraries
-- repo: aosc
-  srcname: runtime-common/abseil-cpp
-  binname: abseil-cpp
-  visiblename: abseil-cpp
-  version: "20260526.0"
-  origversion: 20260526.0-1
-  status: outdated
-  summary: Collection of C++11-compliant libraries designed to augment the C++ standard library
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - libs
-- repo: apertis_v2023
-  subrepo: v2023/development
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20200923
-  visiblename: abseil
-  version: 0~20200923.3
-  origversion: 0~20200923.3-2apertis0
-  status: outdated
-  maintainers:
-    - bbaren@debian.org
-- repo: apertis_v2024
-  subrepo: v2024/target
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20220623
-  visiblename: abseil
-  version: "20220623.1"
-  origversion: 20220623.1-1+deb12u2+apertis1
-  status: outdated
-  maintainers:
-    - bbaren@debian.org
-- repo: conancenter
-  srcname: abseil
-  visiblename: abseil
-  version: "20240116.2"
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: abseil
-  visiblename: abseil
-  version: "20240116.1"
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: abseil
-  visiblename: abseil
-  version: "20230802.1"
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: abseil
-  visiblename: abseil
-  version: "20230125.3"
-  origversion: null
-  status: legacy
-- repo: crux_37
-  subrepo: opt
-  srcname: abseil-cpp
-  visiblename: abseil-cpp
-  version: "20240722.1"
-  origversion: null
-  status: outdated
-  summary: Abseil Common Libraries (C++)
-  maintainers:
-    - tbier@posteo.de
-- repo: crux_38
-  subrepo: opt
-  srcname: abseil-cpp
-  visiblename: abseil-cpp
-  version: "20260817.0"
-  origversion: null
-  status: newest
-  summary: Abseil Common Libraries (C++)
-  maintainers:
-    - tbier@posteo.de
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20200923
-  visiblename: abseil
-  version: 0~20200923.3
-  origversion: 0~20200923.3-2
-  status: outdated
-  maintainers:
-    - bbaren@debian.org
-  categories:
-    - misc
 - repo: debian_11
   subrepo: bullseye-security/main
   srcname: abseil
@@ -11477,6 +11500,20 @@
   visiblename: abseil
   version: 0~20200923.3
   origversion: 0~20200923.3-2+deb11u1
+  status: outdated
+  maintainers:
+    - bbaren@debian.org
+  categories:
+    - misc
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20200923
+  visiblename: abseil
+  version: 0~20200923.3
+  origversion: 0~20200923.3-2
   status: outdated
   maintainers:
     - bbaren@debian.org
@@ -11610,22 +11647,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: release
-  srcname: abseil-cpp
-  binnames:
-    - abseil-cpp
-    - abseil-cpp-testing
-    - abseil-cpp-devel
-  visiblename: abseil-cpp
-  version: "20240722.0"
-  origversion: 20240722.0-1.fc41
-  status: legacy
-  summary: C++ Common Libraries
-  licenses:
-    - Apache-2.0 AND LicenseRef-Fedora-Public-Domain
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: updates
   srcname: abseil-cpp
   binnames:
@@ -11636,6 +11657,22 @@
   version: "20240722.1"
   origversion: 20240722.1-1.fc41
   status: outdated
+  summary: C++ Common Libraries
+  licenses:
+    - Apache-2.0 AND LicenseRef-Fedora-Public-Domain
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: abseil-cpp
+  binnames:
+    - abseil-cpp
+    - abseil-cpp-testing
+    - abseil-cpp-devel
+  visiblename: abseil-cpp
+  version: "20240722.0"
+  origversion: 20240722.0-1.fc41
+  status: legacy
   summary: C++ Common Libraries
   licenses:
     - Apache-2.0 AND LicenseRef-Fedora-Public-Domain
@@ -11658,33 +11695,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: updates
-  srcname: abseil-cpp
-  binnames:
-    - abseil-cpp
-    - abseil-cpp-testing
-    - abseil-cpp-devel
-  visiblename: abseil-cpp
-  version: "20250814.2"
-  origversion: 20250814.2-2.fc43
-  status: outdated
-  summary: C++ Common Libraries
-  licenses:
-    - Apache-2.0 AND LicenseRef-Fedora-Public-Domain
-  categories:
-    - Unspecified
-- repo: nix_stable_25_05
-  srcname: abseil-cpp_202401
-  visiblename: abseil-cpp
-  version: "20240116.3"
-  origversion: null
-  status: legacy
-  summary: Open-source collection of C++ code designed to augment the C++ standard library
-  maintainers:
-    - gaetan@glepage.com
-  licenses:
-    - Apache-2.0
-- repo: fedora_43
   subrepo: release
   srcname: abseil-cpp
   binnames:
@@ -11695,6 +11705,33 @@
   version: "20250814.1"
   origversion: 20250814.1-1.fc43
   status: legacy
+  summary: C++ Common Libraries
+  licenses:
+    - Apache-2.0 AND LicenseRef-Fedora-Public-Domain
+  categories:
+    - Unspecified
+- repo: nix_stable_25_05
+  srcname: abseil-cpp_202301
+  visiblename: abseil-cpp
+  version: "20230125.4"
+  origversion: null
+  status: legacy
+  summary: Open-source collection of C++ code designed to augment the C++ standard library
+  maintainers:
+    - andersk@mit.edu
+  licenses:
+    - Apache-2.0
+- repo: fedora_43
+  subrepo: updates
+  srcname: abseil-cpp
+  binnames:
+    - abseil-cpp
+    - abseil-cpp-testing
+    - abseil-cpp-devel
+  visiblename: abseil-cpp
+  version: "20250814.2"
+  origversion: 20250814.2-2.fc43
+  status: outdated
   summary: C++ Common Libraries
   licenses:
     - Apache-2.0 AND LicenseRef-Fedora-Public-Domain
@@ -11736,6 +11773,15 @@
     - Apache-2.0 AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
+- repo: xrepo
+  srcname: abseil
+  visiblename: abseil
+  version: "20240722.0"
+  origversion: null
+  status: legacy
+  summary: C++ Common Libraries
+  licenses:
+    - Apache-2.0
 - repo: fedora_rawhide
   subrepo: development
   srcname: abseil-cpp
@@ -11763,7 +11809,7 @@
   binname: abseil
   visiblename: devel/abseil
   version: "20250127.1"
-  origversion: "20250127.1_2"
+  origversion: "20250127.1_3"
   status: outdated
   summary: Abseil Common Libraries (C++)
   maintainers:
@@ -12132,17 +12178,6 @@
     - Apache-2.0
   categories:
     - dev-cpp
-- repo: nix_stable_25_11
-  srcname: abseil-cpp_202401
-  visiblename: abseil-cpp
-  version: "20240116.3"
-  origversion: null
-  status: legacy
-  summary: Open-source collection of C++ code designed to augment the C++ standard library
-  maintainers:
-    - gaetan@glepage.com
-  licenses:
-    - Apache-2.0
 - repo: liguros_develop
   srcname: dev-cpp/abseil-cpp
   visiblename: dev-cpp/abseil-cpp
@@ -12382,6 +12417,17 @@
   licenses:
     - Apache-2.0
 - repo: nix_stable_25_11
+  srcname: abseil-cpp_202401
+  visiblename: abseil-cpp
+  version: "20240116.3"
+  origversion: null
+  status: legacy
+  summary: Open-source collection of C++ code designed to augment the C++ standard library
+  maintainers:
+    - gaetan@glepage.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
   srcname: abseil-cpp_202407
   visiblename: abseil-cpp
   version: "20240722.1"
@@ -12447,6 +12493,22 @@
     - gaetan@glepage.com
   licenses:
     - Apache-2.0
+- repo: openeuler_24_03_lts_sp1
+  srcname: abseil-cpp
+  binnames:
+    - abseil-cpp
+    - abseil-cpp-devel
+    - abseil-cpp-debuginfo
+    - abseil-cpp-debugsource
+  visiblename: abseil-cpp
+  version: "20230802.1"
+  origversion: 20230802.1-5.oe2403sp1
+  status: outdated
+  summary: C++ Common Libraries
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
 - repo: nix_stable_26_05
   srcname: abseil-cpp_202407
   visiblename: abseil-cpp
@@ -12592,17 +12654,6 @@
     - noiseless-ak@yandex.ru
   categories:
     - devel
-- repo: openeuler_20_03_lts_sp3
-  srcname: abseil-cpp
-  visiblename: abseil-cpp
-  version: "20210324.2"
-  origversion: 20210324.2-1.oe1
-  status: outdated
-  summary: C++ Common Libraries
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
 - repo: openeuler_20_03_lts_sp4
   srcname: abseil-cpp
   visiblename: abseil-cpp
@@ -12678,22 +12729,15 @@
     - Apache-2.0 AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
-- repo: openeuler_24_03_lts_sp1
-  srcname: abseil-cpp
-  binnames:
-    - abseil-cpp
-    - abseil-cpp-devel
-    - abseil-cpp-debuginfo
-    - abseil-cpp-debugsource
-  visiblename: abseil-cpp
-  version: "20230802.1"
-  origversion: 20230802.1-5.oe2403sp1
-  status: outdated
+- repo: xrepo
+  srcname: abseil
+  visiblename: abseil
+  version: "20250127.0"
+  origversion: null
+  status: legacy
   summary: C++ Common Libraries
   licenses:
     - Apache-2.0
-  categories:
-    - Unspecified
 - repo: openeuler_24_09
   srcname: abseil-cpp
   binnames:
@@ -12768,6 +12812,34 @@
   visiblename: abseil
   version: "20220623.1"
   origversion: 20220623.1-ok2
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - libs
+- repo: openkylin_1_0
+  subrepo: yangtze-proposed/main
+  srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20220623
+  visiblename: abseil
+  version: "20220623.1"
+  origversion: 20220623.1-ok2
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - libs
+- repo: openkylin_2_0
+  subrepo: nile/main
+  srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20220623
+  visiblename: abseil
+  version: "20220623.1"
+  origversion: 20220623.1-ok3
   status: outdated
   maintainers:
     - packaging@lists.openkylin.top
@@ -12898,20 +12970,6 @@
     - ASL 2.0
   categories:
     - Development/C++
-- repo: pardus_21
-  subrepo: updates/main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20200923
-  visiblename: abseil
-  version: 0~20200923.3
-  origversion: 0~20200923.3-2+deb11u1
-  status: outdated
-  maintainers:
-    - bbaren@debian.org
-  categories:
-    - misc
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: abseil-cpp
@@ -13132,18 +13190,6 @@
   categories:
     - Development/C++
 - repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: abseil-cpp
-  visiblename: abseil-cpp
-  version: "20211102.0"
-  origversion: 20211102.0-150300.7.6.1
-  status: legacy
-  summary: C++11 libraries which augment the C++ stdlib
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: opensuse_leap_15_5
   subrepo: updates/sle
   srcname: abseil-cpp
   visiblename: abseil-cpp
@@ -13179,12 +13225,12 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: opensuse_leap_15_6
+- repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: abseil-cpp
   visiblename: abseil-cpp
-  version: "20240116.1"
-  origversion: 20240116.1-150600.17.7
+  version: "20211102.0"
+  origversion: 20211102.0-150300.7.6.1
   status: legacy
   summary: C++11 libraries which augment the C++ stdlib
   licenses:
@@ -13210,6 +13256,18 @@
   version: "20240116.3"
   origversion: 20240116.3-150600.19.6.1
   status: outdated
+  summary: C++11 libraries which augment the C++ stdlib
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: abseil-cpp
+  visiblename: abseil-cpp
+  version: "20240116.1"
+  origversion: 20240116.1-150600.17.7
+  status: legacy
   summary: C++11 libraries which augment the C++ stdlib
   licenses:
     - Apache-2.0
@@ -13337,6 +13395,20 @@
   licenses:
     - Apache-2.0
 - repo: pardus_21
+  subrepo: updates/main
+  srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20200923
+  visiblename: abseil
+  version: 0~20200923.3
+  origversion: 0~20200923.3-2+deb11u1
+  status: outdated
+  maintainers:
+    - bbaren@debian.org
+  categories:
+    - misc
+- repo: pardus_21
   subrepo: main
   srcname: abseil
   binnames:
@@ -13350,6 +13422,43 @@
     - bbaren@debian.org
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20240722
+  visiblename: abseil
+  version: "20240722.0"
+  origversion: 20240722.0-4
+  status: outdated
+  maintainers:
+    - bbaren@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20240722
+  visiblename: abseil
+  version: "20240722.0"
+  origversion: 20240722.0-4
+  status: outdated
+  maintainers:
+    - bbaren@debian.org
+  categories:
+    - misc
+- repo: pclinuxos
+  srcname: abseil-cpp
+  visiblename: abseil-cpp
+  version: "20250814.1"
+  origversion: 20250814.1-1pclos2026
+  status: outdated
+  summary: C++ library code designed to augment
+  categories:
+    - System/Libraries
 - repo: pisi_main
   subrepo: main
   srcname: programming/library/abseil-cpp
@@ -13388,102 +13497,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - devel
-- repo: pkgsrc_current
-  srcname: devel/abseil
-  binname: abseil
-  visiblename: devel/abseil
-  version: "20260817.0"
-  origversion: null
-  status: newest
-  summary: C++ Common Libraries
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - devel
-- repo: pld
-  srcname: abseil-cpp
-  visiblename: abseil-cpp
-  version: "20250814.2"
-  origversion: 20250814.2-1
-  status: outdated
-- repo: ptxdist
-  srcname: abseil-cpp
-  visiblename: abseil-cpp
-  version: "20260817.0"
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20200923
-  visiblename: abseil
-  version: 0~20200923.3
-  origversion: 0~20200923.3-2
-  status: outdated
-  maintainers:
-    - bbaren@debian.org
-  categories:
-    - libdevel
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20240722
-  visiblename: abseil
-  version: "20240722.0"
-  origversion: 20240722.0-4
-  status: outdated
-  maintainers:
-    - bbaren@debian.org
-  categories:
-    - libdevel
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20220623
-  visiblename: abseil
-  version: "20220623.1"
-  origversion: 20220623.1-1+rpi1+deb12u2
-  status: outdated
-  maintainers:
-    - bbaren@debian.org
-  categories:
-    - libs
-- repo: raspbian_stable
-  subrepo: main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20240722
-  visiblename: abseil
-  version: "20240722.0"
-  origversion: 20240722.0-4
-  status: outdated
-  maintainers:
-    - bbaren@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20260526
-  visiblename: abseil
-  version: "20260526.0"
-  origversion: 20260526.0-2
-  status: outdated
-  maintainers:
-    - doko@debian.org
-  categories:
-    - misc
 - repo: ravenports
   srcname: abseil-cpp
   binname: abseil-cpp
@@ -13496,6 +13509,29 @@
     - fallback-mnt-ravenports@repology
   categories:
     - devel
+- repo: t2
+  srcname: abseil-cpp
+  visiblename: abseil-cpp
+  version: "20260817.0"
+  origversion: null
+  status: newest
+  summary: Abseil Common Libraries
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - APL
+  categories:
+    - extra/base
+- repo: termux
+  srcname: abseil-cpp
+  binname: abseil-cpp
+  visiblename: abseil-cpp
+  version: "20260817.0"
+  origversion: null
+  status: newest
+  summary: Abseil C++ Common Libraries
+  maintainers:
+    - termux@github
 - repo: rosa_2019_1
   subrepo: main/release
   srcname: abseil-cpp
@@ -13741,6 +13777,20 @@
     - volkerdi@slackware.com
 - repo: solus
   srcname: abseil-cpp
+  binname: abseil-cpp
+  visiblename: abseil-cpp
+  version: "20260107.1"
+  origversion: null
+  status: outdated
+  summary: Abseil Common Libraries
+  maintainers:
+    - maddock.evan@vivaldi.net
+  licenses:
+    - Apache-2.0
+  categories:
+    - programming.library
+- repo: solus
+  srcname: abseil-cpp
   binname: abseil-cpp-32bit
   visiblename: abseil-cpp-32bit
   version: "20260107.1"
@@ -13853,29 +13903,20 @@
   summary: Abseil Common Libraries (C++)
   maintainers:
     - starkos@disroot.org
-- repo: t2
-  srcname: abseil-cpp
-  visiblename: abseil-cpp
-  version: "20260817.0"
-  origversion: null
-  status: newest
-  summary: Abseil Common Libraries
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/main
+  srcname: abseil
+  binnames:
+    - libabsl-dev
+    - libabsl20210324
+  visiblename: abseil
+  version: 0~20210324.2
+  origversion: 0~20210324.2-2ubuntu0.3
+  status: outdated
   maintainers:
-    - rene@exactco.de
-  licenses:
-    - APL
+    - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
-    - extra/base
-- repo: termux
-  srcname: abseil-cpp
-  binname: abseil-cpp
-  visiblename: abseil-cpp
-  version: "20260817.0"
-  origversion: null
-  status: newest
-  summary: Abseil C++ Common Libraries
-  maintainers:
-    - termux@github
+    - misc
 - repo: ubuntu_22_04
   subrepo: jammy/main
   srcname: abseil
@@ -13890,15 +13931,15 @@
     - bbaren@debian.org
   categories:
     - misc
-- repo: ubuntu_22_04
-  subrepo: jammy-updates/main
+- repo: ubuntu_24_04
+  subrepo: noble/main
   srcname: abseil
   binnames:
     - libabsl-dev
-    - libabsl20210324
+    - libabsl20220623t64
   visiblename: abseil
-  version: 0~20210324.2
-  origversion: 0~20210324.2-2ubuntu0.3
+  version: "20220623.1"
+  origversion: 20220623.1-3.1ubuntu3
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -13918,15 +13959,15 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - misc
-- repo: ubuntu_24_04
-  subrepo: noble/main
+- repo: ubuntu_25_04
+  subrepo: plucky-updates/main
   srcname: abseil
   binnames:
     - libabsl-dev
-    - libabsl20220623t64
+    - libabsl20230802
   visiblename: abseil
-  version: "20220623.1"
-  origversion: 20220623.1-3.1ubuntu3
+  version: "20230802.1"
+  origversion: 20230802.1-4.2ubuntu0.2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -13944,20 +13985,6 @@
   status: outdated
   maintainers:
     - bbaren@debian.org
-  categories:
-    - misc
-- repo: ubuntu_25_04
-  subrepo: plucky-updates/main
-  srcname: abseil
-  binnames:
-    - libabsl-dev
-    - libabsl20230802
-  visiblename: abseil
-  version: "20230802.1"
-  origversion: 20230802.1-4.2ubuntu0.2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - misc
 - repo: ubuntu_25_10
@@ -14126,33 +14153,6 @@
   srcname: abseil
   visiblename: abseil
   version: "20240116.1"
-  origversion: null
-  status: legacy
-  summary: C++ Common Libraries
-  licenses:
-    - Apache-2.0
-- repo: xrepo
-  srcname: abseil
-  visiblename: abseil
-  version: "20240116.2"
-  origversion: null
-  status: legacy
-  summary: C++ Common Libraries
-  licenses:
-    - Apache-2.0
-- repo: xrepo
-  srcname: abseil
-  visiblename: abseil
-  version: "20240722.0"
-  origversion: null
-  status: legacy
-  summary: C++ Common Libraries
-  licenses:
-    - Apache-2.0
-- repo: xrepo
-  srcname: abseil
-  visiblename: abseil
-  version: "20250127.0"
   origversion: null
   status: legacy
   summary: C++ Common Libraries
